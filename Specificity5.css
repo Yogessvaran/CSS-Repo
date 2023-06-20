@@ -1,0 +1,16 @@
+p{
+    color:white;
+    background-color: grey;
+    font-family: "robato";
+    padding:10px;
+    background-color: dodgerblue;
+    height: 100px;
+    display: grid;
+    align-content: center;
+}
+.blue-bg{
+    background-color: dodgerblue;
+}
+.orange-bg{
+    background-color: orange !important;
+}

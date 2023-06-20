@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+
+}
+
+.dropdown{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    list-style-type: none;
+
+}
+a{
+    background-color: gray;
+    font-size: 50px;
+    padding: 25px;
+    text-decoration: none;
+    display: block;
+}
+.tutorials{
+    list-style-type: none;
+    display: none;
+}
+.dropdown li:nth-child(2):hover .tutorials{
+    display: block;
+}
+a:hover{
+    background-color: darkcyan;
+}
+.Webdesign{
+    list-style-type: none;
+    transform: translateX(295px) translateY(-110px);
+    display: none;
+}
+.tutorials li:nth-child(3):hover .Webdesign{
+    display: block;
+}

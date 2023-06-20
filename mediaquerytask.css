@@ -1,0 +1,189 @@
+@media only screen and (min-width:1400px){
+.background{
+    background-image: url('https://www.imageshine.in/uploads/sub_category/Pin-and-White-wave-background-wallpaper-free-download.jpg');
+    width: 100%;
+}
+.navbar{
+    justify-content: end;
+}
+ul{
+list-style: none;
+display: flex;
+margin-left: 63%;
+margin-top: -2%;
+}
+.navbar li{
+padding: 5px;
+}
+.mainheading {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(380px,1fr));
+grid-gap: 50px;
+}
+.mainHead{
+    text-align: center;
+}  
+.mainHead h1{
+    font-size: 50px;
+    margin-top: -1%;
+}
+.line0 h1{
+font-size: 60px;
+margin-left:6%;
+margin-top: -5px;
+}
+.line0 p{
+    margin-left: 6%;
+  
+  
+}
+button{
+    border:2px solid black;
+    width: 100px;
+    height:40px; 
+    margin-bottom: 45px;
+
+}
+button{
+    margin-top: 50px;
+}
+.b1{
+    background-color: rgb(24, 183, 24);
+    color: white;
+    margin-left: 8%;
+}
+.b2{
+    background-color: rgb(16, 106, 203);
+    color: white;
+}
+}
+@media only screen and (min-width:500px) and (max-width:1400px)
+{
+    a{
+        color: white;
+    }
+    .background{
+        background-image: url('https://www.imageshine.in/uploads/sub_category/Pin-and-White-wave-background-wallpaper-free-download.jpg');
+        width: 1400px;
+    }
+    /* .navbar{
+        justify-content: center;
+    } */
+    ul{
+    list-style: none;
+    display: flex;
+    align-content: center;
+   
+    margin-top: -2%;
+    }
+    .navbar li{
+    padding: 5px;
+    }
+    .mainheading {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(380px,1fr));
+    grid-gap: 50px;
+    }
+    .mainHead{
+        text-align: center;
+    }  
+    .mainHead h1{
+        font-size: 50px;
+        margin-top: -1%;
+    }
+    .line0 h1{
+    font-size: 60px;
+    margin-left:6%;
+    margin-top: -5px;
+    }
+    .line0 p{
+        margin-left: 6%;
+      
+      
+    }
+    button{
+        border:2px solid black;
+        width: 100px;
+        height:40px; 
+        margin-bottom: 45px;
+    
+    }
+    button{
+        margin-top: 50px;
+    }
+    .b1{
+        background-color: rgb(24, 183, 24);
+        color: white;
+        margin-left: 8%;
+    }
+    .b2{
+        background-color: rgb(16, 106, 203);
+        color: white;
+    }
+}
+@media only screen and (max-width:500px)
+{
+    a{
+        font-size: 30px;
+        color: green;
+    }
+    .background{
+        background-image: url('https://www.imageshine.in/uploads/sub_category/Pin-and-White-wave-background-wallpaper-free-download.jpg');
+        /* width: 100%; */
+        width: 400px;
+    }
+    /* .navbar{
+        justify-content: center;
+    } */
+    ul{
+    list-style: none;
+    display: block;
+    justify-content: center;
+   
+    margin-top: -2%;
+    }
+    .navbar li{
+    padding: 5px;
+    }
+    .mainheading {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(380px,1fr));
+    grid-gap: 50px;
+    }
+    .mainHead{
+        text-align: center;
+    }  
+    .mainHead h1{
+        font-size: 30px;
+        margin-top: -1%;
+    }
+    .line0 h1{
+    font-size: 60px;
+    margin-left:6%;
+    margin-top: -5px;
+    }
+    .line0 p{
+        margin-left: 6%;
+      
+      
+    }
+    button{
+        border:2px solid black;
+        width: 100px;
+        height:40px; 
+        margin-bottom: 45px;
+    
+    }
+    button{
+        margin-top: 50px;
+    }
+    .b1{
+        background-color: rgb(24, 183, 24);
+        color: white;
+        margin-left: 8%;
+    }
+    .b2{
+        background-color: rgb(16, 106, 203);
+        color: white;
+    }
+}

@@ -1,0 +1,136 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.col-1{
+    width:26%;
+    text-align: center;
+    height: 300px;
+    background-color:white;
+    float: left;
+    margin-top:30px;
+    margin-left: 100px;
+    border: 0.5px solid #178714;
+    border-radius: 10px;
+    /* box-shadow: 20px 25px 25px 20px red; */
+    box-shadow: -1px 28px 50px  #178714;
+}
+.col-2{
+    text-align: center;
+    width:26%;
+    height: 300px;
+    background-color: white;
+    margin:50px auto;
+    margin-top: px;
+    border: 0.5px solid #db0f10;
+    border-radius: 10px;
+    box-shadow: -1px 28px 50px #db0f10 ;
+    
+}
+.col-3{
+    text-align: center;
+    width:26%;
+    height: 300px;
+    background-color: white;
+    float:Right;
+    margin-top: -350px;
+    margin-right: 100px;
+    border: 0.5px solid #7c0ae6;
+    border-radius: 10px;
+    box-shadow: -1px 20px 35px 8px #7c0ae6;
+}
+
+hr {
+    width: 70%;
+    display: block;
+    height: 10px;
+    border: 0px;
+    border-top: 1px solid black;
+    margin: 15px auto;
+    padding: 0;
+}
+
+.row{
+    text-align: center;
+}
+
+.row h5{
+    font-size: 30px;
+}
+
+.row p{
+    font-size: 20px;
+}
+
+.col-1 h4
+{
+    margin-top: 40px;
+}
+.col-1 p{
+    font-size: 13px;
+    margin-top: 40px;
+}
+
+.col-1 button{
+    margin: 25px;
+    height: 35px;
+    border-radius: 50px;
+    color: white;
+    background-color:#23dd42 ;
+    border: transparent;
+    /* box-shadow: 5px 15px 100px #178714; */
+}
+
+.col-1 a{
+ color:#46c41f ;
+ box-shadow: 0px 0px 0px #178714;
+}
+
+.col-2 h4
+{
+    margin-top: 40px;
+}
+.col-2 p{
+    font-size: 13px;
+    margin-top: 40px;
+}
+
+.col-2 button{
+    width: 75px;
+    margin-top: 35px;
+    height: 35px;
+    border-radius: 50px;
+    color: white;
+    background-color:#fa0b0b;
+    border: transparent;
+    /* box-shadow: 5px 15px 35px #db0f10; */
+    font-size:13px ;
+}
+
+.col-3 a{
+    color:#7c0ae6 ;
+    /* box-shadow: 5px 15px 35px #140df3; */
+   }
+   
+   .col-3 h4
+   {
+       margin-top: 40px;
+   }
+   .col-3 p{
+       font-size: 13px;
+       margin-top: 40px;
+   }
+   
+   .col-3 button{
+       width: 150px;
+       margin-top: 35px;
+       margin-bottom:30px ;
+       height: 35px;
+       border-radius: 50px;
+       color: white;
+       background-color:#7c0ae6;
+       border: transparent;
+       /* box-shadow: 5px 15px 35px #140df3; */
+       font-size:13px ;
+   }
+   
+

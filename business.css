@@ -1,0 +1,164 @@
+/* set properties to change the default values of margin and padding */*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box ;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+/* set properties for introduction  field to change the width and display position */
+.roW{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    background-image: url("../Images/handsome-businessman1.jpg");
+    background-size: cover;
+}
+/* set propeties for introducion content field to change the position and text position */
+.coL_1 h1{
+    position: relative;
+    margin-left: 30px;
+    margin-top: 50px; 
+    text-align: left;
+    font-size: 50px; 
+}
+/* set propeties for introduction content field to change the position and text position */
+.coL_1 p{
+    position: relative;
+    margin-left: 30px;
+    text-align: left;
+    font-size: 17px;
+    margin-top: 30px; 
+}
+/* set properties to change the width & position for the business standards info content */
+.comStands{
+    width:100%;
+    margin:0;
+    height:50vh;
+    margin-top:1%;
+    justify-content: space-between;
+    display: flex;
+    text-align: center;
+    /* font-size: 17px; */
+}
+/* set properties to change the width and color for the Quality Product content */
+.comQuality{
+    width: 20%;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    background-color:#000000;
+}
+/* set properties to change the width and color for the Growth Strategy content */
+.comGrowth{
+    width: 20%;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    background-color:#545454;
+}
+/* set properties to change the width and color for the Competitive Price content */
+.comCompetitive{
+    width: 20%;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    background-color: #848484;
+}
+/* set properties to change the width and color for the Competitive Price content */
+.comCompetitive2{
+    width: 20%;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    background-color: #848484;
+}
+
+
+/* set properties to align & position of Quality Product  heading*/
+.comQuality h4{
+    margin-top: 10%;
+    color: white;
+    font-size: 25px;
+}
+/* set properties to align & position of Growth Strategy heading*/
+.comGrowth h4{
+    margin-top: 10%;
+    color: white;
+    font-size: 25px;
+}
+
+/* set properties to align & position of Competitive Price heading*/
+.comCompetitive h4{
+    margin-top: 10%;
+    color: white;
+    font-size: 25px;
+}
+/* set properties to align & position of Competitive Price heading*/
+.comCompetitive2 h4{
+    margin-top: 10%;
+    color: white;
+    font-size: 25px;
+}
+
+/* set properties to change position of Quality Product content */
+.comQuality p{
+    margin-top: 5%;
+    color: white;
+}
+/* set properties to change position of Growth Strateg content */
+.comGrowth p{
+    margin-top:5%;
+    color: white;
+}
+/* set properties to change position of Quality Product content */
+.comCompetitive p{
+    margin-top: 5%;
+    color: white;
+}
+/* set properties to change position of Quality Product content */
+.comCompetitive2 p{
+    margin-top: 5%;
+    color: white;
+}
+
+/* set properties to align and changing the border size for the introduction field button  */
+.coL_1 button{ 
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    top: 10%;
+    left:15%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    width: 200px;
+    padding: 10px 0;
+    margin: 20px 10px;
+    height: 50px;
+    border: 2px solid transparent;
+    border-radius: 25px;
+    font-size: 18px;
+    background: black;
+    color:white;
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-bottom:50px;
+    cursor:pointer;
+    overflow: hidden;
+}
+/* set properties for the hover effects to the introduction field button */
+span{
+    background:darkgrey;
+    height: 100%;
+    width: 0%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+/* set properties for the hover effects to the introduction field button */
+button:hover span{
+    width: 100%;
+}

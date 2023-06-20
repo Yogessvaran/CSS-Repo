@@ -1,0 +1,81 @@
+body{
+    /* background-image: linear-gradient(to right top, #8f039d, #9e0bac, #ae13ba, #be1ac9, #ce21d8, #e51cc4, #f526b2, #ff37a1, #ff677b, #ff9c68, #ffcb72, #f8f39a); */
+    background-image: linear-gradient(to right, #8f039d, #ce1573, #e25a54, #de9150, #d1c072);
+    /* background-image: linear-gradient(to right, #1d0951, #5b0462, #94006a, #c90868, #f7345e); */
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.contact{
+    width: 70%;
+    background-color:rgba(255,255,255,0.6);
+    border-radius: 27px;
+    margin: 15px auto;
+    font-size: 15px;
+    padding: 10px 30px 30px;
+
+}
+.contact{
+    text-align: center;
+}
+.inp_container input{
+    width: 100%;
+    font-size: 1.2em;
+    border: 1px solid transparent;
+    box-shadow: 2px;
+    border-radius: 20px;
+    padding: 10px 50px;
+    box-sizing: border-box;
+    margin: 5px 0px 15px;
+}
+.inp_container textarea{
+    width: 90%;
+    font-size: 1em;
+    background-color: white;
+    border: 1px solid transparent;
+    box-shadow: 2px;
+    border-radius: 15px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    margin: 5px 0px 15px;
+    opacity: 0.8;
+}
+.btn{
+    text-align:center;
+}
+
+button{
+    color: white;
+    background-color:rgba(2, 250, 155, 1);
+    border-color: transparent;
+    padding:10px 23px ;
+    border-radius: 15px;
+    box-shadow: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 34%;
+    font-size: 15px;
+}
+
+.inp_container i{
+    position:absolute;
+    left:17%;
+    top: 20.5%;
+}
+
+#name_1{
+    position:absolute;
+    left:17%;
+    top: 20.5%;
+}
+
+#Email_1{
+    position:absolute;
+    left:17%;
+    top: 30.3%;
+}
+
+#phone_1{
+    position:absolute;
+    left:17%;
+    top: 40.2%;
+}
+

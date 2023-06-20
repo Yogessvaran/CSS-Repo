@@ -1,0 +1,90 @@
+body{
+    background: url("/Images/Background_nature-scenery-4k-s4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Regform{
+    width: 700px ;
+    color: white;
+    background-color: rgba(0,0,0,0.4);
+    margin: 8px auto;
+    padding: 10px 20px 30px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.Regform h3{
+    text-align: center;
+    border-radius: 100%;
+}
+.Regform p{
+    color: white;
+    opacity: 0.6;
+    text-align: center;
+}
+
+/* .input label{ 
+    display: block;
+}*/
+
+input:focus{
+    background-color: #83c5be;
+}
+
+.btn{
+    text-align:center;
+}
+
+button{
+    color: white;
+    background-color:aqua;
+    padding:10px 23px ;
+    border-radius: 6px;
+    box-shadow: 0px;
+    margin-top: 20px;
+    width: 25%;
+
+
+}
+
+.input1 input{
+    width: 30%;
+    font-size: 1.2em;
+    border: 1px solid rgba(0,0,0,0.4);
+    box-shadow: 2px;
+    border-radius: 4px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    margin-left: 80px;
+
+}
+
+
+#firstname{
+    width: 40%;
+    font-size: 1.2em;
+}
+
+.register{
+    text-align: center;
+    margin-top: 23px;
+}
+
+.checkbox:focus{
+    background-color: #0080a3;
+}
+
+.forget{
+    opacity: 0.8;
+    text-align: right;
+    margin-top: -18px;
+}
+
+#lab1{
+    margin-left: 130px;
+}
+#lab2{
+    margin-left: 210px;
+}

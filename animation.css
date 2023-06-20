@@ -1,0 +1,35 @@
+body{
+    background-color:white;
+}
+div {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(40, 200, 170);
+    animation: move infinite;
+    animation-duration: 6s;
+    align-content: center;
+    color:rgb(30, 36, 228);
+    position: relative;
+    font-size: 25px;
+    font-weight: bold;
+  }
+.ease {
+    animation-timing-function: ease;
+}
+.linear{
+    animation-timing-function: linear;
+}
+.easein{
+    animation-timing-function: ease-in;
+}
+.easeout{
+    animation-timing-function: ease-out;
+}
+.easeout{
+    animation-timing-function: ease-in-out;
+}
+  
+  @keyframes move {
+    from {transform: translateX(600px)}
+    to {transform: translateX(0px)}
+  }

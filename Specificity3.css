@@ -1,0 +1,12 @@
+p{
+    background-color: #ebe2d0;
+    height:200px;   
+    display: grid;
+    justify-content: start;
+    align-content: center;
+    padding: 10px;
+    font-size: 50px;
+}
+#dark, .para-2{
+    margin-top: -16px;
+}

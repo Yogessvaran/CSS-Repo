@@ -1,0 +1,46 @@
+.color{
+    margin: 0 auto;
+    height: 260px;
+    width: 100px;
+    margin-left: 50px;
+    margin-top: -20px;
+  
+  }
+  .align{
+    height: 45px;
+    width: 70px;
+    border-radius: 20px;
+    margin-bottom: 25px;
+    margin-top:18px ;
+    margin-right: 400px;
+    color: white;
+  }
+  .childDiv{
+    float:left;
+  }
+  .light{
+    background-color: black;
+    float: left;
+    border-radius: 30px;
+    padding: 5px;
+    border: solid 2px;
+    margin-top: -265px;
+    margin-left:150px;
+  }
+  .align1{
+    height: 60px;
+    width: 60px;
+    border-radius: 45px;
+    background-color:rgb(61, 50, 50) ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .mainBody{
+    border: solid 2px black;
+    width: 300px;
+    background-color: rgb(94, 125, 203);
+  }
+  .heading{
+    margin-top: -20px;
+    margin-left: 70px;
+  }

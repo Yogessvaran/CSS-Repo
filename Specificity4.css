@@ -1,0 +1,18 @@
+p{
+    color:white;
+    font-family: "roboto";
+    padding:10px;
+    background-color: dodgerblue;
+}
+h1{
+    background-color: lightgrey;
+}
+.blue-text{
+    color: blue;
+    height: 60px;
+    display: grid;
+    align-content: center;    
+}
+#description{
+    font-size: 20px;
+}

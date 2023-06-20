@@ -1,0 +1,9 @@
+.cont{
+    border:3px dotted red;
+
+}
+
+p{
+    outline: 3px solid rgb(10, 10, 10);
+    outline-offset: 20px;
+}

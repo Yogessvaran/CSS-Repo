@@ -1,0 +1,77 @@
+body
+{
+    /* background-image:url(); */
+    background-image: linear-gradient(to left, #0cc94e, #00b584, #009ca1, #0080a3, #0a648b);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.signinform{
+    width: 550px ;
+    color: white;
+    background-color: rgba(0,0,0,0.4);
+    margin: 100px auto;
+    padding: 10px 20px 30px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.signinform h3{
+    text-align: center;
+}
+.signinform p{
+    color: white;
+    opacity: 0.6;
+    text-align: center;
+}
+
+/* .input label{ 
+    display: block;
+}*/
+
+input:focus{
+    background-color: #83c5be;
+}
+
+.btn{
+    text-align:center;
+}
+
+button{
+    color: white;
+    background-color:black;
+    padding:10px 23px ;
+    border-radius: 6px;
+    box-shadow: 2px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.input input{
+    width: 100%;
+    font-size: 1.2em;
+    border: 1px solid #006d77;
+    box-shadow: 2px;
+    border-radius: 8px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    margin: 5px 0px 15px;
+}
+
+.register{
+    text-align: center;
+    margin-top: 23px;
+}
+
+.checkbox:focus{
+    background-color: #0080a3;
+}
+
+.forget{
+    opacity: 0.8;
+    text-align: right;
+    margin-top: -18px;
+}
+
+
+
+

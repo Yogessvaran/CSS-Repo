@@ -1,0 +1,190 @@
+/* Set font style to body content */
+body
+{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#e5f6fe;
+}
+
+/* set properties to design the Introduction */
+.KL_Intro{
+    width: 50%;
+    height: 200px;
+    background-color:#fd4c70;
+    margin: 0 auto;
+}
+
+/* set position to introduction image */
+.KL_Intro img{
+    float: right;
+}
+
+/* set propreties to introduction heading */
+.KL_Intro h6{
+    color: white;
+    font-size: 50px;
+    margin-top: 1px;
+    margin-left: 10px;
+    text-align: left;
+}
+
+/* set propreties to introduction content */
+.KL_Intro p{
+    color:white;
+    font-size: 20px;
+    position: absolute;
+    top: 8%;
+    margin-left: 15px;
+}
+
+/* set propreties for Record */
+.KL_Records{
+    margin:0 auto;
+    width: 50%;
+}
+
+/* set margin to record heading */
+.KL_Records h4{
+    margin-left:20px;
+}
+
+/* set properties to design records */
+.Records_1
+{
+    width: 95%;
+    height: 200px;
+    background-color:white;
+    border: solid;
+    border: transparent;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+/* set position record image */
+.Records_1 img{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+/* set properties for record heading */
+.Records_1 h3{
+    position: absolute;
+    left:43%;
+    top: 40%;
+    opacity: 0.7;
+}
+
+/* set propreties to record content */
+.Records_1 p{
+    position: absolute;
+    left:43%;
+    top: 45%;
+    opacity: 0.8;
+    font-size: 20px ;
+    opacity: 0.6;
+}
+
+/* set width for the video contents */
+.KL_videos{
+    width:50%;
+    margin:0 auto;
+}
+
+/* set properties for videos heading */
+.KL_videos h4{
+    margin-left:20px;
+}
+
+/* set properties for videos */
+.KL_vid_1{
+    width:15%;
+    height: 300px;
+    background-color:#e5f6fe;
+    float: left;
+    margin-top:5px;
+    margin-left: 18px;
+    border: 0.5px solid transparent;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+/* set border properties for video */
+.KL_vid_1 iframe{
+    border-radius: 10px;
+}
+
+/* set propreties to video content */
+.KL_vid_1 p{
+    margin-top: -2px;
+}
+
+/* set properties for videos */
+.KL_vid_2{
+    width:15%;
+    height: 300px;
+    background-color:#e5f6fe;
+    float: left;
+    margin-top:5px;
+    margin-left: 100px;
+    border: 0.5px solid transparent;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+/* set border properties for video */
+.KL_vid_2 iframe{
+    border-radius: 10px;
+}
+
+/* set propreties to video content */
+.KL_vid_2 p{
+    margin-top: -2px;
+}
+
+/* set properties for videos */
+.KL_vid_3{
+    width:15%;
+    height: 300px;
+    background-color:#e5f6fe;
+    margin-top:5px;
+    border: 0.5px solid transparent;
+    border-radius: 10px;
+    position: absolute;
+    left:57%;
+    font-size: 15px;
+}
+
+/* set border properties for video */
+.KL_vid_3 iframe{
+    border-radius: 10px;
+}
+
+/* set propreties to video content */
+.KL_vid_3 p{
+    text-align: justify;
+    margin-top: -2px;
+}
+
+/* set properties for button*/
+.KL_videos button{
+    width:150px;
+    height: 50px;
+    border-radius: 5px;
+    border: transparent;
+    color: white;
+    background-color: blue;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+
+/* set postion for button */
+#btn{
+    position: absolute;
+    left:45%;
+    top:780Px;
+}
+
+
+
